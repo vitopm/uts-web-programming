@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\HomeController;
+use Illuminate\Routing\RouteAction;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -28,6 +29,8 @@ Route::get('/publisher', function () {
     return view('publisher');
 });
 
-Route::get('/contact', function () {
-    return view('contact');
-});
+// Route::get('/contact', function () {
+//     return view('contact');
+// });
+
+Route::get('/contact', [HomeController::class, 'contact']);
