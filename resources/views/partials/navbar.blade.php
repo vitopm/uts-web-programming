@@ -1,9 +1,9 @@
 
 {{-- title book store --}}
-<div class="p-5" style="background-color:chartreuse; text-align: center; color: white"><h1>Giant Book Store</h1></div>
+<div class="p-5 .bg-success.bg-gradient" style="background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%); text-align: center; color: white"><h1>Giant Book Store</h1></div>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background: linear-gradient(to top, #0099ff 0%, #ff99cc 100%);">
+    <div class="container" style="">
         <!-- <a class="navbar-brand" href="#">Navbar</a> -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -11,10 +11,10 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="{{route('home')}}">Home</a>
+                    <a class="nav-link active" href="{{route('home')}}">Home</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Category
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -26,10 +26,10 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('publisher') }}">Publisher</a>
+                    <a class="nav-link active" href="{{ route('publisher') }}">Publisher</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/contact">Contact</a>
+                    <a class="nav-link active" href="/contact">Contact</a>
                 </li>
             </ul>
         </div>

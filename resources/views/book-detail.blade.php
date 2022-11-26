@@ -13,7 +13,6 @@
             <p class="card-text">Publisher: {{ $d->getBookPublisher->name }}</p>
             <p class="card-text">Year: {{ $d->year }} </p>
             <p class="card-text">Synopsis: {{ $d-> synopsis }}</p>
-            {{-- <a href="#" class="btn btn-primary">Go somewhere</a> --}}
             </div>
         @endforeach
     </div>

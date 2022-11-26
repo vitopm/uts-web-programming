@@ -3,7 +3,7 @@
 @section('container')
 
     <!-- bikin looping tiap publisher -->
-    <div class="p-2 mb-3" style="background-color:darkgray; color: white">
+    <div class="p-2 mb-3" style="background: linear-gradient(to bottom left, #990000 0%, #000099 100%);color: white">
         <h1>Publishers</h1>
     </div>
     <div class="row row-cols-1 row-cols-md-4 g-4">
@@ -17,7 +17,7 @@
                         <p class="card-text">Address: {{ $p->address }}</p>
                         <p class="card-text">Phone: {{ $p->phone }}</p>
                         <p class="card-text">Email: {{ $p->email }}</p>
-                        <a href="{{ route('publisher-detail',['id'=>$p->id])}}" class="btn btn-primary">Detail</a>
+                        <a href="{{ route('publisher-detail',['id'=>$p->id])}}" class="btn btn-primary" style="background: linear-gradient(to top, #66ccff 72%, #ffff66 100%);">Detail</a>
                     </div>
                 </div>
             </div>

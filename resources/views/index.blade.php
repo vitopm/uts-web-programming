@@ -1,6 +1,6 @@
 @extends('layouts/main')
 @section('container')
-    <div class="p-2 mb-3" style="background-color:darkgray; color: white">
+    <div class="p-2 mb-3 " style="background: linear-gradient(to bottom left, #33ccff 0%, #ff9933 100%);color: white">
         <h1>Book List</h1>
     </div>
     <!-- cards -->
@@ -13,7 +13,7 @@
                     <div class="card-body">
                         <h5 class="card-title">{{ $b->title }}</h5>
                         <p class="card-text">by <br>{{ $b->author }}</p>
-                        <a href="{{ route('book-detail',['id'=>$b->id])}}" class="btn btn-primary">Detail</a>
+                        <a href="{{ route('book-detail',['id'=>$b->id])}}" class="btn btn-primary" style="background: linear-gradient(to top, #66ccff 72%, #ffff66 100%);">Detail</a>
                     </div>
                 </div>
             </div>
