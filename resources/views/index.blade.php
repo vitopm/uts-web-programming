@@ -12,13 +12,12 @@
                     <img src="{{ $b->image }}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">{{ $b->title }}</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <p class="card-text">by <br>{{ $b->author }}</p>
+                        <a href="#" class="btn btn-primary">Detail</a>
                     </div>
                 </div>
             </div>
         @endforeach
         <!-- end of card -->
     </div>
-
 @endsection
