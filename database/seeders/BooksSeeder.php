@@ -21,7 +21,7 @@ class BooksSeeder extends Seeder
 // publisher_id 	title 	author 	year 	synopsis 	image
             DB::table('books')->insert([
                 'publisher_id'=>mt_rand(1,10),
-                'title'=>$faker->title(),
+                'title'=>$faker->sentence(1,3),
                 'author' =>$faker->name(),
                 'year'=>$faker->year(),
                 'synopsis'=>$faker->paragraph(),
