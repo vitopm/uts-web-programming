@@ -28,6 +28,5 @@ class BooksSeeder extends Seeder
                 'image'=>$faker->imageUrl()
             ]);
         }
-
     }
 }
