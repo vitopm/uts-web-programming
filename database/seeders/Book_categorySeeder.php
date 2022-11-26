@@ -20,7 +20,7 @@ class Book_categorySeeder extends Seeder
         //book_id (FK), category_id (FK)
         for($i=0; $i<=9; $i++){
             DB::table('book_category')->insert([
-                'book_id'=>$i+1,
+                'book_id'=>mt_rand(1,10),
                 'category_id'=>mt_rand(1,5)
             ]);
         }

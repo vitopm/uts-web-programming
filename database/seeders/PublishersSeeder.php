@@ -16,7 +16,7 @@ class PublishersSeeder extends Seeder
     public function run()
     {
         //
-        $faker = Faker::create();
+        $faker = Faker::create('id_ID');
         for($i=0; $i<=9; $i++){
             DB::table('publishers')->insert([
                 'name'=>$faker->company(),

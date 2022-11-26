@@ -1,4 +1,7 @@
+
+{{-- title book store --}}
 <div class="p-5" style="background-color:chartreuse; text-align: center; color: white"><h1>Giant Book Store</h1></div>
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
         <!-- <a class="navbar-brand" href="#">Navbar</a> -->
@@ -15,9 +18,11 @@
                     Category
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="{{ route('book-category',['id'=>1]) }}">Romance</a></li>
+                        <li><a class="dropdown-item" href="{{ route('book-category',['id'=>2]) }}">Action</a></li>
+                        <li><a class="dropdown-item" href="{{ route('book-category',['id'=>3]) }}">Fiction</a></li>
+                        <li><a class="dropdown-item" href="{{ route('book-category',['id'=>4]) }}">Comedy</a></li>
+                        <li><a class="dropdown-item" href="{{ route('book-category',['id'=>5]) }}">Anime</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">

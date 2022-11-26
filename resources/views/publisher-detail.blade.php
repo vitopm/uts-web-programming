@@ -6,7 +6,8 @@
     <!-- cards -->
     <div class="row row-cols-1 row-cols-md-5 g-4">
         <!-- start of cards -->
-        @foreach($book as $b)
+        @foreach($book_list as $bl)
+         @foreach ( $bl->getBook as $b)
             <div class="col">
                 <div class="card">
                     <img src="{{ $b->image }}" class="card-img-top" alt="...">
@@ -17,6 +18,7 @@
                     </div>
                 </div>
             </div>
+         @endforeach
         @endforeach
         <!-- end of card -->
     </div>

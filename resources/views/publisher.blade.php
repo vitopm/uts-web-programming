@@ -17,8 +17,7 @@
                         <p class="card-text">Address: {{ $p->address }}</p>
                         <p class="card-text">Phone: {{ $p->phone }}</p>
                         <p class="card-text">Email: {{ $p->email }}</p>
-
-                        <a href="#" class="btn btn-primary">View Books</a>
+                        <a href="{{ route('publisher-detail',['id'=>$p->id])}}" class="btn btn-primary">Detail</a>
                     </div>
                 </div>
             </div>
