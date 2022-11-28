@@ -24,7 +24,7 @@ class PublishersSeeder extends Seeder
             'https://www.logolynx.com/images/logolynx/20/2043aa2034232d6b02b3ecd8cad8a287.jpeg',
             'http://2.bp.blogspot.com/-ZwQGP-U8TP4/UHsoCz3362I/AAAAAAAAA5w/2ckbMSSQY_E/s1600/Logo+2.jpg',
             'http://lofrev.net/wp-content/photos/2016/07/abstract_logo_vector.png',
-            'https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/KFC_logo.svg/1200px-KFC_logo.svg.png',
+            'https://sribu-sg.s3.amazonaws.com/assets/media/contest_detail/2019/7/logo-design-gambar-canting-5d1f61b8faaa2623245d7fd6/220504a8fe.jpg',
             'http://www.alancoleman.co.uk/wp-content/uploads/2014/10/cardinals_logo.png',
             'https://png.pngtree.com/png-vector/20200921/ourlarge/pngtree-red-and-black-logo-png-image_2348180.jpg'
 

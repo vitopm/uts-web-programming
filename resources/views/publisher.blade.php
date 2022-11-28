@@ -3,10 +3,10 @@
 @section('container')
 
     <!-- bikin looping tiap publisher -->
-    <div class="p-2 mb-3" style="background: linear-gradient(to bottom left, #990000 0%, #000099 100%);color: white">
+    <div class="p-2 mb-3 font-monospace" style="background: linear-gradient(to left, #c4ed09 0%, #e7dbe2 100%);color: black">
         <h1>Publishers</h1>
     </div>
-    <div class="row row-cols-1 row-cols-md-4 g-4">
+    <div class="row row-cols-1 row-cols-md-4 g-4 font-monospace">
         <!-- start of cards -->
         @foreach($publishers as $p)
             <div class="col">

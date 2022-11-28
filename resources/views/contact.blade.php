@@ -1,11 +1,11 @@
 @extends('layouts/main')
 
 @section('container')
-    <div class="p-2 mb-3" style="background: linear-gradient(to right, #009900 0%, #ffcc6670 100%);color: white">
+    <div class="p-2 mb-3 font-monospace" style="background: linear-gradient(to right, #d9ff00 0%, #ff7c02 100%);color: black">
         <h1>Contact</h1>
     </div>
 
-    <div class="container mt-4 mb-4 p-4" style="background: linear-gradient(to right, #66ccff 27%, #ffff66 100%);">
+    <div class="container mt-4 mb-4 p-4 font-monospace" style="background: linear-gradient(to right, #66ccff 27%, #ffff66 100%);">
         <h3>Store Address:</h3>
         <h6>
             Jalan Pembangunan Baru Raya,

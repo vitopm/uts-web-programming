@@ -4,7 +4,7 @@
         <h1>Book Detail</h1>
     </div>
 
-    <div class="card">
+    <div class="card font-monospace">
         @foreach ($detail as $d)
             <img src="{{$d->image}}" class="card-img-top mx-auto d-block m-3" alt="..." style="max-width:50%">
             <div class="card-body">
