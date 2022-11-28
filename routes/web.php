@@ -18,31 +18,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/home', function () {
-//     return view('home');
-// });
-
 Route::get('/', [HomeController::class, 'index'])->name('home');
-
-// Route::get('/', function () {
-//     return view('home');
-// });
-
-// Route::get('/publisher', function () {
-//     return view('publisher');
-// });
-
-// Route::get('/contact', function () {
-//     return view('contact');
-// });
 
 Route::get('/contact', [HomeController::class, 'contact']);
 
 Route::get('/publisher', [PublisherController::class, 'getAllPublishers'])->name('publisher');
-
-// Route::get('/book-detail', function () {
-//     return view('book-detail');
-// });
 
 Route::get('/book-detail-{id}', [BookControler::class,'BookDetail'])->name('book-detail');
 
