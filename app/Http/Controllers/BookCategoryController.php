@@ -9,6 +9,6 @@ class BookCategoryController extends Controller
 {
     public function GetBookByCategory(Request $request){
         $book_list = Category::where('id', $request->id)->get();
-        return view('category', compact('book_list'));
+        return view('category', compact('book_list'), ['title'=> 'Category']);
     }
 }

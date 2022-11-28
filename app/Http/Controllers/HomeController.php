@@ -10,10 +10,10 @@ class HomeController extends Controller
 
     public function index(){
         $book = Book::all();
-        return view('index', compact('book'));
+        return view('index', compact('book'), ['title'=> 'Home']);
     }
 
     public function contact(){
-        return view('contact');
+        return view('contact', ['title'=> 'Contact']);
     }
 }

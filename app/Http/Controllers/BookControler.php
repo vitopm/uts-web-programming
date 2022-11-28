@@ -10,6 +10,6 @@ class BookControler extends Controller
     //
     public function BookDetail(Request $request){
         $detail = Book::where('id', $request->id)->get();
-        return view('book-detail', compact('detail'));
+        return view('book-detail', compact('detail'), ['title'=> 'Book Detail']);
     }
 }
