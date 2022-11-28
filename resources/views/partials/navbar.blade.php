@@ -1,6 +1,6 @@
 
 {{-- title book store --}}
-<div class="p-5 .bg-success.bg-gradient" style="background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%); text-align: center; color: white"><h1>Giant Book Store</h1></div>
+<div class="p-5 .bg-success.bg-gradient font-monospace" style="background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%); text-align: center; color: white"><h1>Giant Book Store</h1></div>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background: linear-gradient(to top, #0099ff 0%, #ff99cc 100%);">
     <div class="container" style="">
