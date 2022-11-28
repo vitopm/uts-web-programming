@@ -3,7 +3,7 @@
 @section('container')
 
     <!-- bikin looping tiap publisher -->
-    <div class="p-2 mb-3 font-monospace" style="background: linear-gradient(to left, #c4ed09 0%, #e7dbe2 100%);color: black">
+    <div class="p-2 mb-3 font-monospace" style="background: linear-gradient(to left, #c4ed09 0%, #e7dbe2 100%);color: black; border-radius:1rem">
         <h1>Publishers</h1>
     </div>
     <div class="row row-cols-1 row-cols-md-4 g-4 font-monospace">
@@ -17,7 +17,7 @@
                         <p class="card-text">Address: {{ $p->address }}</p>
                         <p class="card-text">Phone: {{ $p->phone }}</p>
                         <p class="card-text">Email: {{ $p->email }}</p>
-                        <a href="{{ route('publisher-detail',['id'=>$p->id])}}" class="btn btn-primary d-grid gap-2" style="background: linear-gradient(to top, #66ccff 72%, #ffff66 100%);">Detail</a>
+                        <a href="{{ route('publisher-detail',['id'=>$p->id])}}" class="btn btn-primary d-grid gap-2" style="background: linear-gradient(to top, #66ccff 72%, #ffff66 100%); color:black">Detail</a>
                     </div>
                 </div>
             </div>
