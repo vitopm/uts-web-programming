@@ -30,7 +30,8 @@ class PublishersSeeder extends Seeder
 
         );
         $faker = Faker::create('id_ID');
-        for($i=0; $i<=9; $i++){
+        // create only 5 company
+        for($i=0; $i<=4; $i++){
             DB::table('publishers')->insert([
                 'name'=>$faker->company(),
                 'address'=>$faker->address(),

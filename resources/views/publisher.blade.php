@@ -17,7 +17,7 @@
                         <p class="card-text">Address: {{ $p->address }}</p>
                         <p class="card-text">Phone: {{ $p->phone }}</p>
                         <p class="card-text">Email: {{ $p->email }}</p>
-                        <a href="{{ route('publisher-detail',['id'=>$p->id])}}" class="btn btn-primary" style="background: linear-gradient(to top, #66ccff 72%, #ffff66 100%);">Detail</a>
+                        <a href="{{ route('publisher-detail',['id'=>$p->id])}}" class="btn btn-primary d-grid gap-2" style="background: linear-gradient(to top, #66ccff 72%, #ffff66 100%);">Detail</a>
                     </div>
                 </div>
             </div>
