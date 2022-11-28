@@ -1,5 +1,4 @@
 @extends('layouts/main')
-
 @section('container')
     <div class="p-2 mb-3 font-monospace" style="background: linear-gradient(to right, #d9ff00 0%, #ff7c02 100%);color: black;border-radius:1rem">
         <h1>Contact</h1>
@@ -25,14 +24,11 @@
             </ul>
         </div>
 
-
         <h3 clas>Contact</h3>
         <h6>
             Phone: 021-4567-1234
             <br><br>
             Email: happybookstore@happy.com
         </h6>
-
     </div>
-
 @endsection
