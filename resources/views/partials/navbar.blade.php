@@ -20,8 +20,8 @@
                         <li><a class="dropdown-item" href="{{ route('book-category',['id'=>1]) }}">Romance</a></li>
                         <li><a class="dropdown-item" href="{{ route('book-category',['id'=>2]) }}">Action</a></li>
                         <li><a class="dropdown-item" href="{{ route('book-category',['id'=>3]) }}">Fiction</a></li>
-                        <li><a class="dropdown-item" href="{{ route('book-category',['id'=>4]) }}">Comedy</a></li>
-                        <li><a class="dropdown-item" href="{{ route('book-category',['id'=>5]) }}">Anime</a></li>
+                        <li><a class="dropdown-item" href="{{ route('book-category',['id'=>4]) }}">Anime</a></li>
+                        <li><a class="dropdown-item" href="{{ route('book-category',['id'=>5]) }}">Category</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
