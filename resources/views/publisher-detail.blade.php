@@ -1,7 +1,7 @@
 @extends('layouts/main')
 @section('container')
 @foreach($book_list as $bl)
-    <div class="p-4 mb-3 font-monospace" style="background: linear-gradient(to right, #ccffcc 72%, #0033cc64 100%); color: black; border-radius:1rem">
+    <div class="p-4 mb-3 font-monospace" style="background: linear-gradient(to right, #ccffcc 50%, #0033cc00 100%); color: black; border-radius:1rem">
         <img src="{{ $bl->image }}" class="card-img-top" alt="..." style="max-width:20vw; text-align:center">
         <h1>{{ $bl->name }}</h1>
         <p>Alamat: {{ $bl->address }}</p>
